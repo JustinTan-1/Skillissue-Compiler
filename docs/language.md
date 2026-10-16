@@ -1,7 +1,5 @@
 # SkillIssue Language
 
-[Language Guide](./docs/language.md)
-
 SkillIssue programs contain exactly one `mission main() -> int { ... }`. Identifiers are case-sensitive ASCII letters, digits, and underscores, with a letter or underscore first. `//` comments continue to the next newline. Keywords cannot be variable names. Braces delimit blocks, and declarations, assignments, `yap`, and `gg` require semicolons.
 
 ## Statements
