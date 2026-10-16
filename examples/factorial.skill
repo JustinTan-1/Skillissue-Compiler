@@ -1,0 +1,10 @@
+mission main() -> int {
+    loot result: int = 1;
+    loot n: int = 5;
+    grind (n > 1) {
+        result = result * n;
+        n = n - 1;
+    }
+    yap(result);
+    gg 0;
+}

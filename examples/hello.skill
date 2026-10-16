@@ -1,0 +1,4 @@
+mission main() -> int {
+    yap(42);
+    gg 0;
+}

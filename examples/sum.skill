@@ -1,0 +1,10 @@
+mission main() -> int {
+    loot total: int = 0;
+    loot i: int = 1;
+    grind (i <= 10) {
+        total = total + i;
+        i = i + 1;
+    }
+    yap(total);
+    gg 0;
+}

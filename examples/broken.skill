@@ -1,0 +1,4 @@
+mission main() -> int {
+    yap(score);
+    gg 0;
+}

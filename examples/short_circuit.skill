@@ -1,0 +1,9 @@
+mission main() -> int {
+    // The right sides never run, even with constant folding disabled.
+    yap(false && (1 / 0 == 0));
+    yap(true || (1 / 0 == 0));
+    loot a: bool = true;
+    loot b: bool = false;
+    yap(a && (b || (a && !b)));
+    gg 0;
+}

@@ -1,0 +1,11 @@
+mission main() -> int {
+    loot score: int = 100;
+    loot unlocked: bool = score >= 100;
+    sus (unlocked) {
+        yap(score);
+    } nah {
+        yap(0);
+    }
+    yap(unlocked);
+    gg 0;
+}
