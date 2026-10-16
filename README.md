@@ -1,5 +1,8 @@
 # SkillIssue
 
+
+[Language Guide](./docs/language.md)
+
 A small programming language with gaming slang, compiled by a C++20 compiler into LLVM IR and native executables.
 
 ```text
