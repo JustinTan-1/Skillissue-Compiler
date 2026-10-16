@@ -106,8 +106,3 @@ The Windows helper tests deterministic mutations of example programs, keyword/op
 
 Verified in this workspace on native Windows x64: 48 compiler unit cases, the CLI checks, and all 104 native cases passed. Every native module also passed `llvm-as` verification. All 48 unit cases passed the separate Clang AddressSanitizer/UndefinedBehaviorSanitizer profile. A 30-second mutation campaign validated nine seeds and 5,044 mutated inputs with folding off/on and no sanitizer findings. The sum demo printed `55`, and the run helper produced factorial's `120`. Tools used: MSVC 19.44.35222, CMake 3.31.6, and Clang/LLVM 22.1.8.
 
-## Learn and explain the project
-
-[Language rules](docs/language.md) define the exact behavior. [Architecture](docs/architecture.md) explains each compiler stage and the important design choices. [Interview notes](docs/interview.md) suggest a short demo and questions worth preparing. [Implementation plan](IMPLEMENTATION_PLAN.md) records the original roadmap.
-
-The clearest interview story is: a memorable syntax, a small typed language, a compiler you can inspect, and real executables with tested semantics.
